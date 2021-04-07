@@ -1007,6 +1007,12 @@ let allDemoGroups = [
 				isDemoExample: false,
 			},
 			{
+				options: zoomBarDemos.zoomBarAreaCanvasOptions,
+				data: zoomBarDemos.zoomBarAreaCanvasData,
+				chartType: chartTypes.AreaChart,
+				isDemoExample: false,
+			},
+			{
 				options: zoomBarDemos.zoomBarLockedOptions,
 				data: zoomBarDemos.zoomBarLockedData,
 				chartType: chartTypes.StackedBarChart,
